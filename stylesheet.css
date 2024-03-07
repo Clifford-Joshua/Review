@@ -1,0 +1,336 @@
+@media screen and (min-width: 320px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  /* section holder */
+  main {
+    width: 100%;
+    height: 100vh;
+  }
+  /* section */
+  .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(222, 227, 233);
+  }
+  /* header container */
+  .title {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  /* our review heading */
+  .title h2 {
+    font-size: 3rem;
+    color: goldenrod;
+    text-shadow: 2px 2px blue, 4px 4px 1px black;
+  }
+  /* underline */
+  .underline {
+    width: 10%;
+    height: 0.3rem;
+    background-color: red;
+  }
+  /* Review */
+  .review {
+    width: 90%;
+    height: 70%;
+    display: flex;
+    text-align: center;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 3px white, 4px 4px 4px 4px skyblue;
+  }
+  /* image conatainer */
+  .img-container {
+    width: 150px;
+    height: 100px;
+    margin-bottom: 5px;
+  }
+  /* image */
+  #person-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 30%;
+  }
+  /* name */
+  #author {
+    color: brown;
+    font-size: 1.2rem;
+    text-shadow: 1px 1px black, 1px 1px 5px navy;
+  }
+  /* job */
+  #job {
+    padding-top: 6px;
+    color: maroon;
+    font-size: 1.3rem;
+  }
+  /* about */
+  #info {
+    padding: 6px 30px;
+  }
+  /* button holder */
+  .button-container {
+    width: 60%;
+    height: 13%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  /* all button */
+  .button {
+    cursor: pointer;
+    padding: 8px 35px;
+    border-radius: 6px;
+  }
+  .button:hover {
+    color: white;
+    background-color: black;
+  }
+  .button:active {
+    box-shadow: 1px 1px 1px 3px yellow, 2px 2px 2px 3px black;
+  }
+  /* generate button */
+  .random-btn {
+    bottom: 5%;
+    color: yellow;
+    position: absolute;
+    background-color: purple;
+  }
+}
+@media screen and (min-width: 768px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  /* section holder */
+  main {
+    width: 100%;
+    height: 100vh;
+  }
+  /* section */
+  .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(222, 227, 233);
+  }
+  /* header container */
+  .title {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  /* our review heading */
+  .title h2 {
+    font-size: 4rem;
+    color: goldenrod;
+    text-shadow: 2px 2px blue, 4px 4px 1px black;
+  }
+  /* underline */
+  .underline {
+    width: 5%;
+    height: 0.3rem;
+    background-color: red;
+  }
+  /* Review */
+  .review {
+    width: 70%;
+    height: 70%;
+    display: flex;
+    text-align: center;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 3px white, 4px 4px 4px 4px skyblue;
+  }
+  /* image conatainer */
+  .img-container {
+    width: 200px;
+    height: 150px;
+    margin-bottom: 10px;
+  }
+  /* image */
+  #person-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 30%;
+  }
+  /* name */
+  #author {
+    color: brown;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px black, 1px 1px 5px navy;
+  }
+  /* job */
+  #job {
+    padding-top: 10px;
+    color: maroon;
+    font-size: 1.2rem;
+  }
+  /* about */
+  #info {
+    padding: 10px 60px;
+  }
+  /* button holder */
+  .button-container {
+    width: 40%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  /* all button */
+  .button {
+    cursor: pointer;
+    padding: 8px 35px;
+    border-radius: 6px;
+  }
+  .button:hover {
+    color: white;
+    background-color: black;
+  }
+  .button:active {
+    box-shadow: 1px 1px 1px 3px yellow, 2px 2px 2px 3px black;
+  }
+  /* generate button */
+  .random-btn {
+    bottom: 5%;
+    color: yellow;
+    position: absolute;
+    background-color: purple;
+  }
+}
+@media screen and (min-width: 1024px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  /* section holder */
+  main {
+    width: 100%;
+    height: 100vh;
+  }
+  /* section */
+  .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(222, 227, 233);
+  }
+  /* header container */
+  .title {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  /* our review heading */
+  .title h2 {
+    font-size: 4rem;
+    color: goldenrod;
+    text-shadow: 2px 2px blue, 4px 4px 1px black;
+  }
+  /* underline */
+  .underline {
+    width: 5%;
+    height: 0.3rem;
+    background-color: red;
+  }
+  /* Review */
+  .review {
+    width: 45%;
+    height: 70%;
+    display: flex;
+    text-align: center;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 3px white, 4px 4px 4px 4px skyblue;
+  }
+  /* image conatainer */
+  .img-container {
+    width: 200px;
+    height: 150px;
+    margin-bottom: 15px;
+  }
+  /* image */
+  #person-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 30%;
+  }
+  /* name */
+  #author {
+    color: brown;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px black, 1px 1px 5px navy;
+  }
+  /* job */
+  #job {
+    padding-top: 10px;
+    color: maroon;
+    font-size: 1.2rem;
+  }
+  /* about */
+  #info {
+    padding: 10px 60px;
+  }
+  /* button holder */
+  .button-container {
+    width: 40%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  /* all button */
+  .button {
+    cursor: pointer;
+    padding: 8px 35px;
+    border-radius: 6px;
+  }
+  .button:hover {
+    color: white;
+    background-color: black;
+  }
+  .button:active {
+    box-shadow: 1px 1px 1px 3px yellow, 2px 2px 2px 3px black;
+  }
+  /* generate button */
+  .random-btn {
+    bottom: 5%;
+    color: yellow;
+    position: absolute;
+    background-color: purple;
+  }
+}
